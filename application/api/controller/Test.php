@@ -5,6 +5,8 @@ use Redis;
 use \think\Request;
 class Test{
     public function test(){
-        echo "分割的非官方的";
+        echo "分割的非官方的1";
+        echo "分割的非官方的2";
+        echo "分割的非官方的3";
     }
 }
