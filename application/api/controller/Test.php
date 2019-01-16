@@ -22,7 +22,7 @@ class Test{
 //        echo $res->getStatusCode();
 //        $body = $res->getBody()->getContents(); //获取响应体，对象
 //        $bodyStr = (string)$body; //对象转字串,这就是请求返回的结果
-//        echo $bodyStr;
+//        echo $bodyStr;1
 
         $client = new \GuzzleHttp\Client();
         $res = $client->request('GET', 'http://www.baidu.com/');
